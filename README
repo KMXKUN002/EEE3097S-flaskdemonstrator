@@ -1,0 +1,20 @@
+The demonstrator uses Python Flask to make an interactive HTML page.
+
+Features
+--------
+
+Methods:
+    gen(DroneCamera camera) -- A generator function to continually return 
+        the frame() buffer from the DroneCamera class.
+    
+    video_feed() -- Retrieves individual frames from the frame buffer.
+
+    zoom() -- Either sets or gets the zoom level.
+
+    capture() -- Redirects user to where they may download a snapshot.
+        The name of the image is determined by the coordinates.
+
+    capture_with_filename() -- Downloads snapshot image.
+
+To reuse this application for other interfaces than flask, replicate the generator function as used in the code.
+Use the API's frame() to get individual frames from the frames buffer.
