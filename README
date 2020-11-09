@@ -18,3 +18,9 @@ Methods:
 
 To reuse this application for other interfaces than flask, replicate the generator function as used in the code.
 Use the API's frame() to get individual frames from the frames buffer.
+
+Use the zoom scale to set the zoom (crop level) of the camera.
+
+Press the capture button to download a snapshot of the image that is on the feed.
+
+The HTML image object is updated at 24 fps, at 640x480 resolution. Freely modify this in the code for your needs.
